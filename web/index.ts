@@ -142,12 +142,12 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'Frilanstimmar', value: 'https://i.imgur.com/B46VYv8.png' },
+    { text: 'Frilanstimmar', value: 'https://og.frilanstimmar.se/logo.svg' },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
 
-    { text: 'Frilanstimmar', value: 'https://i.imgur.com/aUcW8PQ.png' },
+    { text: 'Frilanstimmar', value: 'https://og.frilanstimmar.se/logo-w.svg' },
 ];
 
 const widthOptions = [

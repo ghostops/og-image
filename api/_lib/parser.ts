@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://i.imgur.com/B46VYv8.png'
-        : 'https://i.imgur.com/aUcW8PQ.png';
+        ? 'https://og.frilanstimmar.se/logo.svg'
+        : 'https://og.frilanstimmar.se/logo-w.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];
